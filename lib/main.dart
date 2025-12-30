@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:form_field_widget_example/form_field_widget.dart';
 
-
+void main() {
+  runApp(const MaterialApp(home: ExampleFormPage()));
+}
 
 class ExampleFormPage extends StatefulWidget {
   const ExampleFormPage({super.key});
@@ -154,4 +156,3 @@ class _ExampleFormPageState extends State<ExampleFormPage> {
     );
   }
 }
-
